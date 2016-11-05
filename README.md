@@ -12,7 +12,11 @@
 
 我的 devServer 端口是 8080，backend 端口是 9999. 我需要把 `output.publickPath` 设置为 `'http://localhost:8080/app/dist-webpack/'`，并且在入口 html 中，把标签写成 `<script src="http://localhost:8080/app/dist-webpack/0.bundle.js"></script>`。
 
-运行
+打开两个命令行窗口。分别运行：
+
+```
+node server.js
+```
 
 ```
 npm run dev1
@@ -41,7 +45,12 @@ npm run dev1
 
 这样，我发出一个 AJAX 请求 `/api/test/proxy`， proxy 就会帮我转发一个 `/test/proxy` 到我的 9999 端口的服务器上获取数据。
 
-运行：
+打开两个命令行窗口。分别运行：
+
+```
+node server.js
+```
+
 
 ```
 npm run dev2
