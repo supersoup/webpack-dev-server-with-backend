@@ -1,0 +1,20 @@
+{
+  "name": "webpack_use_study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-rjs": "^0.1.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "dev1": "webpack-dev-server --inline --color",
+    "dev2": "webpack-dev-server --inline --color --config webpack.config2.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
